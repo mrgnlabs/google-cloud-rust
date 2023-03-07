@@ -24,7 +24,7 @@ google-cloud-spanner = { version = "0.17.0", path = "../spanner", optional = tru
 google-cloud-storage = { version = "0.9", path = "../storage", optional = true }
 
 [dev-dependencies]
-tokio = "1.20"
+tokio = "^1.14.1"
 serial_test = "0.9"
 
 [features]

@@ -1,7 +1,7 @@
 use std::ops::Deref;
 
 use ring::{rand, signature};
-use rsa::pkcs8::{DecodePrivateKey, EncodePrivateKey};
+use rsa::pkcs8::{FromPrivateKey, ToPrivateKey};
 
 use google_cloud_token::{NopeTokenSourceProvider, TokenSourceProvider};
 
